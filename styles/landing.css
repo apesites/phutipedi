@@ -1,0 +1,98 @@
+.landing-page{
+    min-height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    min-height: 32rem;
+    
+}
+
+.profession-img-cont-first{
+    width: 56%;
+    height: 60%;   
+    border-top-right-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+    overflow: hidden;
+}
+.profession-img-cont{
+    width: 56%;
+    height: 60%;
+    border-top-left-radius: 7rem;
+    border-top-right-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    overflow: hidden;
+}
+
+.middle-profession-img-cont{
+    width: 70%;
+    height: 90%;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+    overflow: hidden;
+}
+
+.profession-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.product-description-cont-first{
+    width: 70%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cinzel;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+.product-description-cont{
+    width: 70%;
+    height: 33%;
+    display: flex;
+   flex-direction: column;
+
+}
+
+.product-description-cont p{
+    width: 10rem;
+    text-align: center;
+}
+
+
+.contact-button{
+    width: 10rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0.7rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: solid 1px black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: cinzel;
+}
+
+@media (max-width: 1201px) {
+    .landing-page {
+        display: none;
+    }
+}

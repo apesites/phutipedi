@@ -1,0 +1,46 @@
+.services-sec{
+    margin-top: 1rem;
+    position: relative;
+}
+
+.services-container{
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+    min-height:20rem;
+    justify-items: center;
+    align-items: center;
+
+
+    
+
+}
+.top-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.service{
+    font-family: cinzel,arial;
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: center;
+}
+
+.service-description{
+    border-top: solid 1.5px black;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+

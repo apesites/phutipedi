@@ -1,0 +1,164 @@
+
+.footer-sec{
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+   
+}
+
+.first-footer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-img-cont{
+    width: 8rem;
+
+}
+.footer-img{
+    width: 100%;
+}
+
+
+.second-footer{
+    font-family: cinzel;
+}
+
+
+.about-sec{
+
+    min-height: 20rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    color: white;
+    background-image: url(../images/pexels-kelly-1179532-2833686.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.about-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 36, 36, 0.5);
+}
+.about-footer{
+    z-index: 100;
+}
+
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: solid 1px white;
+    margin-top: 2rem;
+}
+
+.bottom-logo{
+    font-family: cinzel;
+    font-weight: 600;
+}
+
+.bottom-icons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: end;
+}
+.footer-icons{
+    width: 1.5rem;
+    margin-left: 1rem;
+
+}
+.footer-icon{
+    width: 100%;
+}
+.bottom-logo span{
+    font-size: 10px;
+}
+
+
+
+.about-heading span{
+    font-size: 1rem;
+
+}
+.about-footer-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.mail, .phone, .adress{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-bottom: solid 1px black;
+    width: 60%;
+}
+
+.footer-contacts-icons{
+    width: 1rem;
+}
+
+
+
+
+
+.about-footer-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-footer-link p{
+    width: 70%;
+    text-align: center;
+}
+
+
+
+.developer{
+    color: rgb(0, 200, 255);
+    font-weight: bold;
+}
+.second-footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    z-index: 100;
+}
+
+
+
+@media (max-width: 971px) {
+ .footer-container{
+    display: flex;
+    flex-direction: column-reverse;
+ }
+}
+@media (max-width: 626px) {
+    .about-footer-container{
+        flex-direction: column;
+    }
+    .about-footer-link{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

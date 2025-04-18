@@ -1,0 +1,37 @@
+.academic-sec{
+    background-color: antiquewhite;
+    min-height: 25rem;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    margin-top: 2rem;
+}
+.academic-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.academic-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    width: 70%;
+    margin: auto;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.container{
+    background-color: rgb(255, 255, 255, 0.7);
+    opacity: 0.8;
+    padding: 1rem;
+}
+
+.academic-headeing{
+    font-family: cinzel,arial;
+    font-weight: bold;
+}
